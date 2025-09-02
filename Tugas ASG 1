@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+	char nama[100];
+	char lang[100];
+	
+	scanf("%s%s", nama, lang);
+	printf("My name is %s and my favorite programming is %s", nama, lang);
+	return 0;
+}
